@@ -103,7 +103,7 @@ img {
   text-decoration: none;
   font-weight: 500;
   position: relative;
-  transition: var(--transition-dur-time);
+  transition: color var(--transition-dur-time);
   display: block;
   
 }
@@ -123,7 +123,7 @@ img {
   border-radius: 2px;
   left: 0px;
   top: 44px;
-  transition: var(--transition-dur-time);
+  transition: color var(--transition-dur-time);
   color: var(--button-color-hover);
   
 }
@@ -153,7 +153,7 @@ img {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
-  transition: var(--transition-dur-time);
+  transition: color var(--transition-dur-time);
 }
 
 .address-link:hover,
@@ -212,7 +212,7 @@ button {
   margin-top: 48px;
   border: none;
   padding: 16px 32px 16px 32px;
-  transition: var(--transition-dur-time)
+  transition: background-color var(--transition-dur-time)
 }
 .hero-button:active,
 .hero-button:hover,
@@ -401,7 +401,7 @@ button {
   align-items: center;
   justify-content: center;
   display: flex;
-  transition: var(--transition-dur-time);
+  transition: background-color var(--transition-dur-time);
 }
 .teams-svg{
   fill: #F4F4FD;
@@ -450,7 +450,7 @@ button {
     border-radius: 4px;
     border: 1px solid #8E8F99;
     color: #8E8F99;
-    transition: var(--transition-dur-time);
+    transition: border-color var(--transition-dur-time), color var(--transition-dur-time);
     
 }
  .clients-svg {
@@ -505,11 +505,14 @@ button {
   margin-bottom: 0; 
 }
 .footer-container{
+}
+.container-footer-new{
   margin-left: 120px;
 }
 
 .container-footer-icon{
   display: flex;
+  
 }
 .footer-media-title{
   font-weight: 500;
@@ -536,7 +539,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: var(--transition-dur-time);
+  transition: background-color var(--transition-dur-time);
   
 }
 
@@ -581,7 +584,7 @@ button {
   letter-spacing: 0.04em;
   color: var(--accent-color);
   cursor: pointer;
-  transition: var(--transition-dur-time);
+  transition: background-color var(--transition-dur-time);
 }
 
 .button:hover {
@@ -715,7 +718,7 @@ button {
   height: 100%;
   opacity: 1;
   background: rgba(46, 47, 66, 0.4);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -753,7 +756,7 @@ button {
   background: #E7E9FC;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--transition-dur-time) , color var(--transition-dur-time);
   
 }
 
