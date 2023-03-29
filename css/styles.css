@@ -583,7 +583,7 @@ button {
   letter-spacing: 0.04em;
   color: var(--accent-color);
   cursor: pointer;
-  transition: background-color var(--transition-dur-time), border-color var(--transition-dur-time);
+  transition: background-color var(--transition-dur-time), color var(--transition-dur-time) , border-color var(--transition-dur-time);
 
 }
 
